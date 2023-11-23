@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.error-msg {
+  width: 500px;
+  padding: 5px 10px;
+  background-color: silver;
+  color: rgb(159, 28, 28);
+  font-style: italic;
+}
+
+.invisible {
+  display: none;
+}
