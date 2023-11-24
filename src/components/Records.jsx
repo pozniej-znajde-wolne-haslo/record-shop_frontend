@@ -16,7 +16,7 @@ export default function Records() {
   // onload (u use it to get data, when the page is loading (mounting))
   useEffect(() => {
     // http://localhost:8000/api/records/allrecords
-    fetch('https://shop-be-b5xf.onrender.com/records/allrecords')
+    fetch('https://shop-be-b5xf.onrender.com/api/records/allrecords')
       .then((res) => res.json())
       .then((result) => {
         setRecords(result.data); // 'cos RECORDS is now OBJ with ARR inside (KEYS: success & data)

@@ -15,7 +15,7 @@ export default function Container({ children }) {
     const token = localStorage.getItem('token');
 
     if (token) {
-      fetch('http://localhost:8000/api/users/verifytoken', {
+      fetch('https://shop-be-b5xf.onrender.com/api/users/verifytoken', {
         method: 'GET', // can use POST as well
         headers: { token: token },
       })

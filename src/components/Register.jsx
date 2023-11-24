@@ -14,7 +14,7 @@ export default function Register() {
       password: e.target.password.value,
     };
     // making POST request (to send data)
-    fetch('http://localhost:8000/api/users/register', {
+    fetch('https://shop-be-b5xf.onrender.com/api/users/register', {
       method: 'POST', // DELETE only need METHOD (no --/headers/body/--)
       // u can send JSON, XML, grapghQL data (need 2 say, what type of data u're sending !!)
       headers: { 'Content-Type': 'application/json' }, // META DATA (like HEAD in HTML)
